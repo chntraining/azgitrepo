@@ -10,6 +10,6 @@ public class TestController {
 
 	@GetMapping("/hi")
 	private String sayHi() {
-		return "Hi from TestController!";
+		return "Success!!! Getting Message from TestController!";
 	}
 }
